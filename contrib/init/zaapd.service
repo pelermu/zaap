@@ -1,0 +1,22 @@
+[Unit]
+Description=zaap's distributed currency daemon
+After=network.target
+
+[Service]
+User=zaapcore
+Group=zaapcore
+
+Type=forking
+PIDFile=/var/lib/zaapd/zaapd.pid
+ExecStart=/usr/bin/zaapd -daemon -pid=/var/lib/zaapd/zaapd.pid \
+-conf=/etc/zaapcore/zaap.conf -datadir=/var/lib/zaapd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

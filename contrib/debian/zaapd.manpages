@@ -1,0 +1,3 @@
+debian/manpages/zaapd.1
+debian/manpages/zaap.conf.5
+debian/manpages/zaap-cli.1

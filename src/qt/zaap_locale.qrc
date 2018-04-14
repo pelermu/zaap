@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/zaap_bg.qm</file>
+        <file alias="de">locale/zaap_de.qm</file>
+        <file alias="en">locale/zaap_en.qm</file>
+        <file alias="es">locale/zaap_es.qm</file>
+        <file alias="fi">locale/zaap_fi.qm</file>
+        <file alias="fr">locale/zaap_fr.qm</file>
+        <file alias="it">locale/zaap_it.qm</file>
+        <file alias="ja">locale/zaap_ja.qm</file>
+        <file alias="pl">locale/zaap_pl.qm</file>
+        <file alias="pt">locale/zaap_pt.qm</file>
+        <file alias="ru">locale/zaap_ru.qm</file>
+        <file alias="sk">locale/zaap_sk.qm</file>
+        <file alias="sv">locale/zaap_sv.qm</file>
+        <file alias="vi">locale/zaap_vi.qm</file>
+        <file alias="zh_CN">locale/zaap_zh_CN.qm</file>
+        <file alias="zh_TW">locale/zaap_zh_TW.qm</file>
+    </qresource>
+</RCC>

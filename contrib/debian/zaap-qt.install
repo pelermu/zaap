@@ -1,0 +1,6 @@
+usr/local/bin/zaap-qt usr/bin
+share/pixmaps/zaap32.xpm usr/share/pixmaps
+share/pixmaps/zaap16.xpm usr/share/pixmaps
+share/pixmaps/zaap128.png usr/share/pixmaps
+debian/zaap-qt.desktop usr/share/applications
+debian/zaap-qt.protocol usr/share/kde4/services/

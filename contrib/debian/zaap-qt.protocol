@@ -1,0 +1,11 @@
+[Protocol]
+exec=zaap-qt '%u'
+protocol=zaap
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
