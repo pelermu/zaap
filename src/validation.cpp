@@ -1232,44 +1232,129 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
           but current height to avoid confusion.
   */
     if(nPrevHeight <= 9) {nSubsidyBase = 40000;}
-    if(nPrevHeight == 10) {nSubsidyBase = 1;}
-    if(nPrevHeight == 109) {nSubsidyBase = 50;}
-    if(nPrevHeight == 209) {nSubsidyBase = 50;}
-    if(nPrevHeight == 309) {nSubsidyBase = 50;}
-    if(nPrevHeight == 409) {nSubsidyBase = 50;}
-    if(nPrevHeight == 509) {nSubsidyBase = 50;}
-    if(nPrevHeight == 609) {nSubsidyBase = 50;}
-    if(nPrevHeight == 709) {nSubsidyBase = 50;}
-    if(nPrevHeight == 809) {nSubsidyBase = 50;}
-    if(nPrevHeight == 909) {nSubsidyBase = 50;}
-    if(nPrevHeight == 1109) {nSubsidyBase = 50;}
-    if(nPrevHeight == 1209) {nSubsidyBase = 50;}
-    if(nPrevHeight == 1309) {nSubsidyBase = 50;}
-    if(nPrevHeight == 1409) {nSubsidyBase = 50;}
-    if(nPrevHeight == 1509) {nSubsidyBase = 50;}
-    if(nPrevHeight == 1609) {nSubsidyBase = 50;}
-    if(nPrevHeight == 1709) {nSubsidyBase = 50;}
-    if(nPrevHeight == 1809) {nSubsidyBase = 50;}
-    if(nPrevHeight == 1909) {nSubsidyBase = 50;}
-    if(nPrevHeight == 2109) {nSubsidyBase = 50;}
-    if(nPrevHeight == 2209) {nSubsidyBase = 50;}
-    if(nPrevHeight == 2309) {nSubsidyBase = 50;}
-    if(nPrevHeight == 2409) {nSubsidyBase = 50;}
-    if(nPrevHeight == 2509) {nSubsidyBase = 50;}
-    if(nPrevHeight == 2609) {nSubsidyBase = 50;}
-    if(nPrevHeight == 2709) {nSubsidyBase = 50;}
-    if(nPrevHeight == 2809) {nSubsidyBase = 50;}
-    if(nPrevHeight == 2909) {nSubsidyBase = 50;}
-    if(nPrevHeight >= 3000) {nSubsidyBase = 20;}
-    if(nPrevHeight == 10079) {nSubsidyBase = 1000;}
-    if(nPrevHeight == 15119) {nSubsidyBase = 1000;}
-    if(nPrevHeight == 20159) {nSubsidyBase = 1000;}
-    if(nPrevHeight == 40319) {nSubsidyBase = 1000;}
-    if(nPrevHeight == 60479) {nSubsidyBase = 2000;}
-    if(nPrevHeight == 80639) {nSubsidyBase = 2000;}
-    if(nPrevHeight >= 100000) {nSubsidyBase = 10;}
-    if(nPrevHeight >= 1314000) {nSubsidyBase = 5;}
-    if(nPrevHeight >= 2628000) {nSubsidyBase = 2.5;}
+    if(nPrevHeight == 100) {nSubsidyBase = 100;}
+    if(nPrevHeight == 200) {nSubsidyBase = 100;}
+    if(nPrevHeight == 300) {nSubsidyBase = 100;}
+    if(nPrevHeight == 400) {nSubsidyBase = 100;}
+    if(nPrevHeight == 500) {nSubsidyBase = 100;}
+    if(nPrevHeight == 600) {nSubsidyBase = 100;}
+    if(nPrevHeight == 700) {nSubsidyBase = 100;}
+    if(nPrevHeight == 800) {nSubsidyBase = 100;}
+    if(nPrevHeight == 900) {nSubsidyBase = 100;}
+    if(nPrevHeight == 1000) {nSubsidyBase = 100;}
+    if(nPrevHeight == 1100) {nSubsidyBase = 100;}
+    if(nPrevHeight == 1200) {nSubsidyBase = 100;}
+    if(nPrevHeight == 1300) {nSubsidyBase = 100;}
+    if(nPrevHeight == 1400) {nSubsidyBase = 100;}
+    if(nPrevHeight == 1500) {nSubsidyBase = 100;}
+    if(nPrevHeight == 1600) {nSubsidyBase = 100;}
+    if(nPrevHeight == 1700) {nSubsidyBase = 100;}
+    if(nPrevHeight == 1800) {nSubsidyBase = 100;}
+    if(nPrevHeight == 1900) {nSubsidyBase = 100;}
+    if(nPrevHeight == 2000) {nSubsidyBase = 100;}
+    if(nPrevHeight == 2100) {nSubsidyBase = 100;}
+    if(nPrevHeight == 2200) {nSubsidyBase = 100;}
+    if(nPrevHeight == 2300) {nSubsidyBase = 100;}
+    if(nPrevHeight == 2400) {nSubsidyBase = 100;}
+    if(nPrevHeight == 2500) {nSubsidyBase = 100;}
+    if(nPrevHeight == 2600) {nSubsidyBase = 100;}
+    if(nPrevHeight == 2700) {nSubsidyBase = 100;}
+    if(nPrevHeight == 2800) {nSubsidyBase = 100;}
+    if(nPrevHeight == 2900) {nSubsidyBase = 100;}
+    if(nPrevHeight == 3000) {nSubsidyBase = 100;}
+    if(nPrevHeight == 3100) {nSubsidyBase = 100;}
+    if(nPrevHeight == 3200) {nSubsidyBase = 100;}
+    if(nPrevHeight == 3300) {nSubsidyBase = 100;}
+    if(nPrevHeight == 3400) {nSubsidyBase = 100;}
+    if(nPrevHeight == 3500) {nSubsidyBase = 100;}
+    if(nPrevHeight == 3600) {nSubsidyBase = 100;}
+    if(nPrevHeight == 3700) {nSubsidyBase = 100;}
+    if(nPrevHeight == 3800) {nSubsidyBase = 100;}
+    if(nPrevHeight == 3900) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4000) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4100) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4200) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4300) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4400) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4500) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4600) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4700) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4800) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4900) {nSubsidyBase = 100;}
+    if(nPrevHeight == 5000) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4100) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4200) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4300) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4400) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4500) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4600) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4700) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4800) {nSubsidyBase = 100;}
+    if(nPrevHeight == 4900) {nSubsidyBase = 100;}
+    if(nPrevHeight == 5000) {nSubsidyBase = 100;}
+    if(nPrevHeight == 5100) {nSubsidyBase = 100;}
+    if(nPrevHeight == 5200) {nSubsidyBase = 100;}
+    if(nPrevHeight == 5300) {nSubsidyBase = 100;}
+    if(nPrevHeight == 5400) {nSubsidyBase = 100;}
+    if(nPrevHeight == 5500) {nSubsidyBase = 100;}
+    if(nPrevHeight == 5600) {nSubsidyBase = 100;}
+    if(nPrevHeight == 5700) {nSubsidyBase = 100;}
+    if(nPrevHeight == 5800) {nSubsidyBase = 100;}
+    if(nPrevHeight == 5900) {nSubsidyBase = 100;}
+    if(nPrevHeight == 6000) {nSubsidyBase = 100;}
+    if(nPrevHeight == 6100) {nSubsidyBase = 100;}
+    if(nPrevHeight == 6200) {nSubsidyBase = 100;}
+    if(nPrevHeight == 6300) {nSubsidyBase = 100;}
+    if(nPrevHeight == 6400) {nSubsidyBase = 100;}
+    if(nPrevHeight == 6500) {nSubsidyBase = 100;}
+    if(nPrevHeight == 6600) {nSubsidyBase = 100;}
+    if(nPrevHeight == 6700) {nSubsidyBase = 100;}
+    if(nPrevHeight == 6800) {nSubsidyBase = 100;}
+    if(nPrevHeight == 6900) {nSubsidyBase = 100;}
+    if(nPrevHeight == 7000) {nSubsidyBase = 100;}
+    if(nPrevHeight == 7100) {nSubsidyBase = 100;}
+    if(nPrevHeight == 7200) {nSubsidyBase = 100;}
+    if(nPrevHeight == 7300) {nSubsidyBase = 100;}
+    if(nPrevHeight == 7400) {nSubsidyBase = 100;}
+    if(nPrevHeight == 7500) {nSubsidyBase = 100;}
+    if(nPrevHeight == 7600) {nSubsidyBase = 100;}
+    if(nPrevHeight == 7700) {nSubsidyBase = 100;}
+    if(nPrevHeight == 7800) {nSubsidyBase = 100;}
+    if(nPrevHeight == 7900) {nSubsidyBase = 100;}
+    if(nPrevHeight == 8000) {nSubsidyBase = 100;}
+    if(nPrevHeight == 8100) {nSubsidyBase = 100;}
+if(nPrevHeight == 8200) {nSubsidyBase = 100;}
+if(nPrevHeight == 8300) {nSubsidyBase = 100;}
+if(nPrevHeight == 8400) {nSubsidyBase = 100;}
+if(nPrevHeight == 8500) {nSubsidyBase = 100;}
+if(nPrevHeight == 8600) {nSubsidyBase = 100;}
+if(nPrevHeight == 8700) {nSubsidyBase = 100;}
+if(nPrevHeight == 8800) {nSubsidyBase = 100;}
+if(nPrevHeight == 8900) {nSubsidyBase = 100;}
+if(nPrevHeight == 9000) {nSubsidyBase = 100;}
+if(nPrevHeight == 9100) {nSubsidyBase = 100;}
+if(nPrevHeight == 9200) {nSubsidyBase = 100;}
+if(nPrevHeight == 9300) {nSubsidyBase = 100;}
+if(nPrevHeight == 9400) {nSubsidyBase = 100;}
+if(nPrevHeight == 9500) {nSubsidyBase = 100;}
+if(nPrevHeight == 9600) {nSubsidyBase = 100;}
+if(nPrevHeight == 9700) {nSubsidyBase = 100;}
+if(nPrevHeight == 9800) {nSubsidyBase = 100;}
+if(nPrevHeight == 9900) {nSubsidyBase = 100;}
+if(nPrevHeight == 10000) {nSubsidyBase = 100;}
+if(nPrevHeight == 20000) {nSubsidyBase = 500;}
+if(nPrevHeight == 30000) {nSubsidyBase = 500;}
+if(nPrevHeight == 40000) {nSubsidyBase = 500;}
+if(nPrevHeight == 50000) {nSubsidyBase = 500;}
+if(nPrevHeight == 60000) {nSubsidyBase = 500;}
+if(nPrevHeight == 70000) {nSubsidyBase = 500;}
+if(nPrevHeight == 20000) {nSubsidyBase = 500;}
+if(nPrevHeight == 80000) {nSubsidyBase = 500;}
+if(nPrevHeight == 90000) {nSubsidyBase = 500;}
+if(nPrevHeight == 100000) {nSubsidyBase = 500;}
+    if(nPrevHeight >= 262801) {nSubsidyBase = 10;}
+    if(nPrevHeight >= 2628001) {nSubsidyBase = 2.5;}
+
 
 
         // LogPrintf("height %u diff %4.2f reward %d\n", nPrevHeight, dDiff, nSubsidyBase);
@@ -1288,7 +1373,8 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
 CAmount GetMasternodePayment(int nHeight, CAmount blockValue)
     {
        CAmount ret = blockValue/2; // start at 50%
-       if(nHeight > 10000) ret = blockValue / 1.285;  // up to 70%
+       if(nHeight > 10000) ret = blockValue / 1.42857142857;  // up to 70%
+       // pow end 
        return ret;
    }
 
