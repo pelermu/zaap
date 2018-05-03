@@ -9,7 +9,7 @@ build=false
 setupenv=false
 
 # Systems to build
-linux=false
+linux=true
 windows=false
 osx=true
 
