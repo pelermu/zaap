@@ -26,7 +26,7 @@ remotes:
 - "url": "https://github.com/zaapnetwork/zaap.git"
   "dir": "zaap"
 files:
-- "MacOSX10.11.sdk.tar.xz"
+- "MacOSX10.11.sdk.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   HOSTS="x86_64-apple-darwin11"
