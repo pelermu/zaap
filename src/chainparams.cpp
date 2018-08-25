@@ -125,20 +125,20 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0x58;
-        pchMessageStart[1] = 0x09;
-        pchMessageStart[2] = 0x63;
-        pchMessageStart[3] = 0x0f;
-        vAlertPubKey = ParseHex("04bb41c5c25aee7718674d16c498753a6881d6519f1869f06454f3cdee2644b28e5aaeee375298eb3a19228a0cd36bebda1504691a037dee25134fcd7d6eeb6acf");
+        pchMessageStart[0] = 0x5a;
+        pchMessageStart[1] = 0x0f;
+        pchMessageStart[2] = 0x61;
+        pchMessageStart[3] = 0x0a;
+        vAlertPubKey = ParseHex("0486bce1bac0d543f104cbff2bd23680056a3b9ea05e1137d2ff90eeb5e08472eb500322593a2cb06fbf8297d7beb6cd30cb90f98153b5b7cce1493749e41e0284");
         nDefaultPort = 25193;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nDelayGetHeadersTime = 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1524661200, 6501388, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1535222207, 20979864, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000042f0b8ec5973a78efc66281b204b6cf1383a62c83f533b1e0cd008342b3"));
-        assert(genesis.hashMerkleRoot == uint256S("0x3f878d6c3af40c7c0592e3e359272035a604a65fa46d0dcc7a9da379fb23eb4b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000a54fa9c55c4beabb8888392eb7c1d2f8991f51a930a24d1652fbbd26ab5"));
+        assert(genesis.hashMerkleRoot == uint256S("0x0ddbb5ad8db2bf8a72d9ef14e8a7fa03775d5968741600ba17eafeaed90c753a"));
 
         vSeeds.push_back(CDNSSeedData("N1", "zaapcoindns1.zaapnetwork.io"));
         vSeeds.push_back(CDNSSeedData("N2", "zaapcoindns2.zaapnetwork.io"));
